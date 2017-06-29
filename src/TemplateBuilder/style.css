@@ -1,0 +1,24 @@
+.TemplateBuilder {
+/*This is the main div wrapping the component*/
+}
+
+.TemplateBuilder-Menu {
+/*This is div wrapping the placeholder dropdown*/
+}
+
+.TemplateBuilder-Editor {
+/*This is div wrapping the editor*/
+}
+
+.TemplateBuilder-Editor-Placeholder {
+/*This is span wrapping placeholders*/
+    background-color: #ffc;
+    color: #cf5e00;
+    font-style: italic;
+    display: inline-block;
+}
+
+.TemplateBuilder-Footer {
+/*This is the div wrapping the save button*/
+}
+

@@ -1,0 +1,28 @@
+{
+  "name": "template-builder",
+  "version": "0.1.0",
+  "private": true,
+  "main": "lib/index.js",
+  "dependencies": {
+    "draft-js": "^0.10.1"
+  },
+  "devDependencies": {
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "babel-cli": "^6.24.1",
+    "babel-core": "^6.25.0",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-plugin-transform-react-jsx": "^6.24.1",
+    "babel-preset-env": "^1.5.2",
+    "babel-preset-es2016": "^6.24.1",
+    "babel-preset-es2017": "^6.24.1",
+    "react-scripts": "1.0.7"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "prepublish": "node_modules/babel-cli/bin/babel.js ./src/TemplateBuilder --out-dir lib"
+  }
+}
