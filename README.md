@@ -8,7 +8,7 @@ A simple editor component that allows inserting pre-defined placeholders.
 Install...
 
 ```
-yarn add "git+https://github.com/Strathcom/template-builder.git#master"
+yarn add "git+https://github.com/goauto/template-builder.git#master"
 ```
 
 Add some css...
